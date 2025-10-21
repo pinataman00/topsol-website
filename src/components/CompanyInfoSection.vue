@@ -6,11 +6,11 @@
           <h2 class="section-title" style="text-align: left;">Company Information</h2>
           <div class="info-item">
             <div class="info-icon">
-              <img :src="weblissSymbol" alt="Webliss" class="company-logo">
+              <img :src="weblissSymbol" alt="Topsol" class="company-logo">
             </div>
             <div>
               <strong>회사명</strong><br>
-              (주)위블리스
+              (주)탑솔
             </div>
           </div>
           <div class="info-item">
@@ -58,7 +58,7 @@
 </template>
 
 <script setup>
-import weblissSymbol from '../assets/company-ci/webliss-ci-symbol.svg'
+import weblissSymbol from '../assets/topsol-ci/TOPSOL_symbol.svg'
 </script>
 
 <style scoped>

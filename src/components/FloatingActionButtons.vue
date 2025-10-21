@@ -3,7 +3,7 @@
     <!-- 메인 플로팅 버튼 (로고 - 연락처로 이동) -->
     <div class="main-floating-btn" @click="goToContact" v-show="!isInContactSection">
       <div class="btn-icon">
-        <img :src="logo" alt="webliss logo" class="logo-img" />
+        <img :src="logo" alt="topsol logo" class="logo-img" />
         <div class="sparkle sparkle-1"></div>
         <div class="sparkle sparkle-2"></div>
         <div class="sparkle sparkle-3"></div>
@@ -98,7 +98,7 @@
 </template>
 
 <script>
-import logo from '../assets/company-ci/webliss-ci-symbol.svg'
+import logo from '../assets/topsol-ci/TOPSOL_symbol.svg'
 
 export default {
   name: 'FloatingActionButtons',
@@ -207,7 +207,7 @@ export default {
     },
     
     openEmail() {
-      window.location.href = 'mailto:contact@we-bliss.com?subject=서비스 문의&body=안녕하세요. Webliss 서비스에 대해 문의드립니다.'
+      window.location.href = 'mailto:contact@topsol.co.kr?subject=서비스 문의&body=안녕하세요. Topsol 서비스에 대해 문의드립니다.'
     }
     */
   }

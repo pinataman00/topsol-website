@@ -1,8 +1,8 @@
-# 위블리스 웹사이트 배포 가이드
+# 탑솔 웹사이트 배포 가이드
 
 ## 📦 배포 패키지 정보
 
-**패키지 파일**: `webliss-website-deploy.tar.gz` (약 4.6MB)
+**패키지 파일**: `topsol-website-deploy.tar.gz` (약 4.6MB)
 **배포 타입**: 정적 웹사이트 (Static Website)
 **빌드 완료**: 2025년 10월 16일
 
@@ -46,7 +46,7 @@
 ### Step 1: 패키지 업로드
 ```bash
 # 서버에 패키지 업로드 (scp 사용 예시)
-scp webliss-website-deploy.tar.gz user@server-ip:/tmp/
+scp topsol-website-deploy.tar.gz user@server-ip:/tmp/
 
 # 또는 FTP/SFTP 도구 사용
 ```
@@ -60,7 +60,7 @@ ssh user@server-ip
 cd /var/www/
 
 # 압축 해제
-sudo tar -xzf /tmp/webliss-website-deploy.tar.gz
+sudo tar -xzf /tmp/topsol-website-deploy.tar.gz
 
 # 결과: /var/www/dist 폴더 생성됨
 ```
@@ -77,7 +77,7 @@ sudo apt install nginx
 
 **2) 사이트 설정 파일 생성**
 ```bash
-sudo nano /etc/nginx/sites-available/webliss
+sudo nano /etc/nginx/sites-available/topsol
 ```
 
 **3) 설정 내용 입력**
@@ -86,7 +86,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name www.we-bliss.com we-bliss.com;
+    server_name www.topsol.co.kr topsol.co.kr;
 
     # 웹사이트 루트 디렉토리
     root /var/www/dist;
@@ -116,7 +116,7 @@ server {
 **4) 설정 활성화**
 ```bash
 # 심볼릭 링크 생성
-sudo ln -s /etc/nginx/sites-available/webliss /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/topsol /etc/nginx/sites-enabled/
 
 # 기본 사이트 비활성화 (선택사항)
 sudo rm /etc/nginx/sites-enabled/default
@@ -138,14 +138,14 @@ sudo apt install apache2
 
 **2) 사이트 설정 파일 생성**
 ```bash
-sudo nano /etc/apache2/sites-available/webliss.conf
+sudo nano /etc/apache2/sites-available/topsol.conf
 ```
 
 **3) 설정 내용 입력**
 ```apache
 <VirtualHost *:80>
-    ServerName www.we-bliss.com
-    ServerAlias we-bliss.com
+    ServerName www.topsol.co.kr
+    ServerAlias topsol.co.kr
 
     DocumentRoot /var/www/dist
 
@@ -159,8 +159,8 @@ sudo nano /etc/apache2/sites-available/webliss.conf
     </Directory>
 
     # 로그 파일
-    ErrorLog ${APACHE_LOG_DIR}/webliss-error.log
-    CustomLog ${APACHE_LOG_DIR}/webliss-access.log combined
+    ErrorLog ${APACHE_LOG_DIR}/topsol-error.log
+    CustomLog ${APACHE_LOG_DIR}/topsol-access.log combined
 </VirtualHost>
 ```
 
@@ -170,7 +170,7 @@ sudo nano /etc/apache2/sites-available/webliss.conf
 sudo a2enmod rewrite
 
 # 사이트 활성화
-sudo a2ensite webliss
+sudo a2ensite topsol
 
 # Apache 재시작
 sudo systemctl restart apache2
@@ -188,7 +188,7 @@ sudo systemctl restart apache2
 sudo apt install certbot python3-certbot-nginx
 
 # SSL 인증서 발급 및 자동 설정
-sudo certbot --nginx -d we-bliss.com -d www.we-bliss.com
+sudo certbot --nginx -d topsol.co.kr -d www.topsol.co.kr
 
 # 자동 갱신 테스트
 sudo certbot renew --dry-run
@@ -200,7 +200,7 @@ sudo certbot renew --dry-run
 sudo apt install certbot python3-certbot-apache
 
 # SSL 인증서 발급 및 자동 설정
-sudo certbot --apache -d we-bliss.com -d www.we-bliss.com
+sudo certbot --apache -d topsol.co.kr -d www.topsol.co.kr
 ```
 
 ---
@@ -228,8 +228,8 @@ TTL: 3600
 ### 1. 웹 브라우저 테스트
 ```
 http://서버IP
-http://we-bliss.com
-https://we-bliss.com (SSL 설정 후)
+http://topsol.co.kr
+https://topsol.co.kr (SSL 설정 후)
 ```
 
 ### 2. 주요 섹션 테스트
@@ -243,10 +243,10 @@ https://we-bliss.com (SSL 설정 후)
 ### 3. 성능 테스트
 ```bash
 # 응답 시간 확인
-curl -o /dev/null -s -w "Time: %{time_total}s\n" https://we-bliss.com
+curl -o /dev/null -s -w "Time: %{time_total}s\n" https://topsol.co.kr
 
 # 페이지 로드 확인
-curl -I https://we-bliss.com
+curl -I https://topsol.co.kr
 ```
 
 ---
@@ -314,7 +314,7 @@ sudo apt install goaccess
 ```bash
 # 일일 백업 스크립트
 #!/bin/bash
-tar -czf /backup/webliss-$(date +%Y%m%d).tar.gz /var/www/dist
+tar -czf /backup/topsol-$(date +%Y%m%d).tar.gz /var/www/dist
 ```
 
 ---

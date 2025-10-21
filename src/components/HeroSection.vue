@@ -60,7 +60,7 @@ export default {
   },
   computed: {
     currentBackgroundComponent() {
-      return backgroundComponents[this.backgroundType] || backgroundComponents.milkyway
+      return backgroundComponents[this.backgroundType] || backgroundComponents.fluid
     }
   },
   methods: {

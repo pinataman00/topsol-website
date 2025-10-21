@@ -2,7 +2,7 @@
   <header class="header" :class="{ scrolled: isScrolled }">
     <nav class="nav">
       <a class="logo" href="#home">
-        <img :src="logo" alt="webliss logo" class="logo-img" />
+        <img :src="logo" alt="topsol logo" class="logo-img" />
       </a>
 
       <!-- 데스크톱/모바일 메뉴 -->
@@ -79,7 +79,7 @@
 
 <script>
 import { ref } from 'vue'
-import logo from '../assets/company-ci/webliss-ci-symbol-name.svg'
+import logo from '../assets/topsol-ci/TOPSOL_horizontal.svg'
 // Solution symbol logos
 import cloudWaiSymbol from '../assets/solutions-logo/logo-symbol/CloudWai_symbol.png'
 import orkisSymbol from '../assets/solutions-logo/logo-symbol/Orkis_symbol.png'

@@ -1,7 +1,7 @@
 <template>
   <section class="section reference-section" id="reference">
     <div class="container">
-      <h2 class="section-title">위블리스와 함께하는 고객</h2>
+      <h2 class="section-title">탑솔과 함께하는 고객</h2>
       <p class="section-subtitle">믿음과 신뢰를 바탕으로<span class="mobile-break"> </span>함께 성장하고 있는 고객사들입니다</p>
       
       <div class="logo-carousel-container">

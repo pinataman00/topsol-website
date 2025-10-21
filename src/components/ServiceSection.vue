@@ -23,7 +23,7 @@
         <div class="service-category" :class="{ active: activeCategory === 'all' }">
           <!-- Featured Services Header -->
           <!-- <div class="featured-header">
-            <h3 class="featured-title">위블리스의 서비스를 소개합니다</h3>
+            <h3 class="featured-title">탑솔의 서비스를 소개합니다</h3>
             <p class="featured-subtitle">
               디지털 혁신에 필요한 모든 것
             </p>
@@ -70,7 +70,7 @@
 
           <!-- Stats Section -->
           <div class="stats-section" ref="statsSection">
-            <h3 class="stats-title">위블리스와 함께하는 성과</h3>
+            <h3 class="stats-title">탑솔과 함께하는 성과</h3>
             <div class="stats-grid">
               <div v-for="stat in statsData" :key="stat.label" class="stat-item">
                 <div class="stat-number">{{ stat.displayNumber }}</div>
@@ -146,7 +146,7 @@ import sioraSymbol from '../assets/solutions-logo/logo-symbol/Siora_symbol.png'
 import dovoraSymbol from '../assets/solutions-logo/logo-symbol/Dovora_symbol.png'
 import neoFlowSymbol from '../assets/solutions-logo/logo-symbol/NeoFlow_symbol.png'
 import orkisSymbol from '../assets/solutions-logo/logo-symbol/Orkis_symbol.png'
-import weblissSymbol from '../assets/company-ci/webliss-ci-symbol.svg'
+import weblissSymbol from '../assets/topsol-ci/TOPSOL_symbol.svg'
 
 // Vertical 로고 import
 import cloudWaiVertical from '../assets/solutions-logo/logo-vertical/CloudWai_vertical.png'

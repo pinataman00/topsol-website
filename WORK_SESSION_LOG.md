@@ -103,7 +103,7 @@ CompanyInfoSection의 아이콘 UI 개선, Verora.vue와 CompanyInfoSection의 �
 **파일**: `src/components/CompanyInfoSection.vue`
 
 **변경사항**:
-- 회사명(🏢) 아이콘을 위블리스 CI(favicon.svg)로 교체
+- 회사명(🏢) 아이콘을 탑솔 CI(favicon.svg)로 교체
 - 이유: 브랜드 아이덴티티 강화 및 시각적 일관성
 
 **코드**:
@@ -183,7 +183,7 @@ CompanyInfoSection의 아이콘 UI 개선, Verora.vue와 CompanyInfoSection의 �
 **파일**: `src/components/ServiceSection.vue`
 
 **구현 기능**:
-- 스크롤 시 "위블리스와 함께하는 성과" 섹션의 숫자가 0부터 목표값까지 부드럽게 증가
+- 스크롤 시 "탑솔과 함께하는 성과" 섹션의 숫자가 0부터 목표값까지 부드럽게 증가
 - easeOutExpo 애니메이션 적용으로 자연스러운 감속 효과
 - 스크롤이 화면의 70% 지점에 도달하면 애니메이션 시작
 - 한 번만 실행되도록 hasAnimated 플래그 사용
@@ -247,7 +247,7 @@ const handleStatsScroll = () => {
 ```vue
 <!-- ref 추가 -->
 <div class="stats-section" ref="statsSection">
-  <h3 class="stats-title">위블리스와 함께하는 성과</h3>
+  <h3 class="stats-title">탑솔과 함께하는 성과</h3>
   <div class="stats-grid">
     <div v-for="stat in statsData" :key="stat.label" class="stat-item">
       <!-- number → displayNumber로 변경 -->

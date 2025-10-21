@@ -1,7 +1,7 @@
 <template>
   <section class="section contact-section" id="contact">
     <div class="container">
-      <img :src="logo" alt="webliss logo" class="logo-img" />
+      <img :src="logo" alt="topsol logo" class="logo-img" />
       <h2 class="section-title contact-title">Contact Us</h2>
 
       <p class="section-subtitle">언제든지 문의해 주세요. 친절히 상담해 드리겠습니다</p>
@@ -22,12 +22,12 @@
         <div class="contact-item">
           <font-awesome-icon :icon="['fas', 'globe']" class="contact-icon" />
           <h3>웹사이트</h3>
-          <p>www.we-bliss.com</p>
+          <p>www.topsol.co.kr</p>
         </div>
       </div>
       <div class="copyright-info">
         <p>
-          Copyright (c) We-Bliss Co.Ltd. All rights reserved.
+          Copyright (c) Topsol Co.Ltd. All rights reserved.
         </p>
       </div>
     </div>
@@ -36,7 +36,7 @@
 
 <script>
 // import logo from '../assets/webliss_compound_CI.svg'
-import logo from '../assets/company-ci/webliss-ci-symbol.svg'
+import logo from '../assets/topsol-ci/TOPSOL_symbol.svg'
 
 export default {
   name: 'ContactSection',
