@@ -547,7 +547,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
 }
 
@@ -797,7 +797,7 @@ export default {
 
 .ai-badge {
   background: white;
-  color: #c52027;
+  color: #d65d65;
   font-size: 0.8rem;
   font-weight: bold;
   padding: 5px 10px;
@@ -1026,13 +1026,13 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #c52027;
+  border-color: #d65d65;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -1087,7 +1087,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .query-example {
@@ -1096,7 +1096,7 @@ export default {
   border-radius: 10px;
   font-size: 1.1rem;
   color: #333;
-  border-left: 4px solid #c52027;
+  border-left: 4px solid #d65d65;
   font-style: italic;
 }
 
@@ -1118,7 +1118,7 @@ export default {
 .demo-arrow {
   text-align: center;
   font-size: 2rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: bold;
 }
 
@@ -1133,7 +1133,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .insight-cards {
@@ -1198,7 +1198,7 @@ export default {
 }
 
 .insight-content strong {
-  color: #c52027;
+  color: #d65d65;
   font-weight: 700;
 }
 
@@ -1243,7 +1243,7 @@ export default {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .arch-description {
@@ -1291,7 +1291,7 @@ export default {
 
   .solution-demo.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #c52027;
+    color: #d65d65;
   }
 
   .solution-demo.is-mobile h4:active,

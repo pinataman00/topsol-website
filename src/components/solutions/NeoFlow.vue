@@ -606,7 +606,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
 }
 
@@ -1175,13 +1175,13 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #c52027;
+  border-color: #d65d65;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -1244,7 +1244,7 @@ export default {
 .step-number {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1270,7 +1270,7 @@ export default {
 
 .step-arrow {
   font-size: 1.5rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: bold;
 }
 
@@ -1465,7 +1465,7 @@ export default {
 
 .arrow-divider {
   font-size: 2.2rem;
-  color: #c52027;
+  color: #d65d65;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1520,7 +1520,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .arch-components {
@@ -1539,7 +1539,7 @@ export default {
 }
 
 .arch-component:hover {
-  background: #c52027;
+  background: #d65d65;
   color: white;
 }
 
@@ -1708,10 +1708,10 @@ export default {
 .source-category h6 {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #c52027;
+  color: #d65d65;
   margin-bottom: 20px;
   padding-left: 10px;
-  border-left: 4px solid #c52027;
+  border-left: 4px solid #d65d65;
 }
 
 .source-cards {
@@ -1737,7 +1737,7 @@ export default {
 
 .source-card:hover {
   transform: translateY(-3px);
-  border-color: #c52027;
+  border-color: #d65d65;
   background: white;
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
 }
@@ -1787,7 +1787,7 @@ export default {
 }
 
 .stat-card {
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
   padding: 30px 25px;
   border-radius: 15px;
@@ -2171,7 +2171,7 @@ export default {
 
   .use-case-section.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #c52027;
+    color: #d65d65;
   }
 
   .use-case-section.is-mobile h4:active,

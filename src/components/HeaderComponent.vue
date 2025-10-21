@@ -282,7 +282,7 @@ export default {
 .logo {
   font-size: 28px;
   font-weight: bold;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -316,7 +316,7 @@ export default {
 }
 
 .nav-links a:hover {
-  color: #c52027;
+  color: #d65d65;
 }
 
 .nav-links a::after {
@@ -326,7 +326,7 @@ export default {
   left: 0;
   width: 0;
   height: 2px;
-  background: #c52027;
+  background: #d65d65;
   transition: width 0.3s ease;
 }
 
@@ -418,7 +418,7 @@ export default {
 
 .solution-item:hover {
   background: #f8f9ff;
-  border-color: #c52027;
+  border-color: #d65d65;
   transform: translateY(-2px);
   box-shadow: 0 5px 20px rgba(102, 126, 234, 0.1);
 }
@@ -458,13 +458,13 @@ export default {
   font-size: 1.3rem;
   font-weight: 700;
   /* color: #333; */
-  color: #c52027;
+  color: #d65d65;
   margin: 0;
 }
 
 .solution-title p {
   font-size: 0.85rem;
-  color: #c52027;
+  color: #d65d65;
   margin: 0;
 }
 
@@ -583,7 +583,7 @@ export default {
   .solutions-main-link .dropdown-arrow {
     display: block;
     margin-left: auto;
-    color: #c52027;
+    color: #d65d65;
   }
 
   /* 모바일 서브메뉴 표시 */

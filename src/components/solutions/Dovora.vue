@@ -442,7 +442,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
 }
 
@@ -941,13 +941,13 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #c52027;
+  border-color: #d65d65;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -1002,7 +1002,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .query-example {
@@ -1011,14 +1011,14 @@ export default {
   border-radius: 10px;
   font-size: 1.1rem;
   color: #333;
-  border-left: 4px solid #c52027;
+  border-left: 4px solid #d65d65;
   font-style: italic;
 }
 
 .demo-arrow {
   text-align: center;
   font-size: 2rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: bold;
 }
 
@@ -1042,7 +1042,7 @@ export default {
 
 .process-step:hover {
   transform: translateY(-5px);
-  border-color: #c52027;
+  border-color: #d65d65;
   background: white;
   box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
 }
@@ -1071,7 +1071,7 @@ export default {
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 0.85rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: 600;
   border: 1px solid #e9ecef;
 }
@@ -1086,7 +1086,7 @@ export default {
   background: #f8f9fa;
   padding: 20px;
   border-radius: 10px;
-  border-left: 4px solid #c52027;
+  border-left: 4px solid #d65d65;
 }
 
 .answer-text p {
@@ -1100,7 +1100,7 @@ export default {
 }
 
 .answer-text strong {
-  color: #c52027;
+  color: #d65d65;
   font-size: 1.05rem;
 }
 
@@ -1174,7 +1174,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .arch-components {
@@ -1215,7 +1215,7 @@ export default {
 
   .document-demo-section.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #c52027;
+    color: #d65d65;
   }
 
   .document-demo-section.is-mobile h4:active,

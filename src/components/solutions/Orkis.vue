@@ -403,7 +403,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
 }
 
@@ -662,7 +662,7 @@ export default {
 
 .sub-icon.active {
   background: rgba(255, 255, 255, 1);
-  border-color: #c52027;
+  border-color: #d65d65;
   transform: translateX(-50%) scale(1.15);
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
@@ -677,7 +677,7 @@ export default {
 
 .sub-icon i {
   font-size: 1.2rem;
-  color: #c52027;
+  color: #d65d65;
   transition: all 0.3s ease;
 }
 
@@ -726,13 +726,13 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #c52027;
+  border-color: #d65d65;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -796,7 +796,7 @@ export default {
 .step-number {
   width: 40px;
   height: 40px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -822,7 +822,7 @@ export default {
 
 .step-arrow {
   font-size: 1.5rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: bold;
 }
 
@@ -1017,7 +1017,7 @@ export default {
 
 .arrow-divider {
   font-size: 2.2rem;
-  color: #c52027;
+  color: #d65d65;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1072,7 +1072,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .arch-components {
@@ -1091,7 +1091,7 @@ export default {
 }
 
 .arch-component:hover {
-  background: #c52027;
+  background: #d65d65;
   color: white;
 }
 
@@ -1448,7 +1448,7 @@ export default {
 
 .tech-card:hover {
   transform: translateY(-5px);
-  border-color: #c52027;
+  border-color: #d65d65;
   background: white;
   box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
 }
@@ -1508,7 +1508,7 @@ export default {
 
   .use-case-section.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #c52027;
+    color: #d65d65;
   }
 
   .use-case-section.is-mobile h4:active,

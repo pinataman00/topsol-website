@@ -864,12 +864,12 @@ defineExpose({
 }
 
 .nav-item:hover {
-  color: #c52027;
+  color: #d65d65;
 }
 
 .nav-item.active {
-  color: #c52027;
-  border-bottom-color: #c52027;
+  color: #d65d65;
+  border-bottom-color: #d65d65;
 }
 
 /* Content Area */
@@ -940,7 +940,7 @@ defineExpose({
 .featured-service-card.highlighted {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 50px rgba(118, 75, 162, 0.25);
-  border-color: #15293f;
+  border-color: #2d3f5f;
   background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
 }
 
@@ -951,7 +951,7 @@ defineExpose({
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -987,7 +987,7 @@ defineExpose({
 }
 
 .featured-icon.emoji-icon {
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   box-shadow: 0 3px 10px rgba(102, 126, 234, 0.2);
 }
 
@@ -999,7 +999,7 @@ defineExpose({
 
 .fontawesome-icon {
   font-size: 1.5rem;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .featured-service-card:hover .featured-icon {
@@ -1029,7 +1029,7 @@ defineExpose({
 }
 
 .featured-service-card:hover .featured-service-title {
-  color: #c52027;
+  color: #d65d65;
 }
 
 .featured-content-area {
@@ -1102,7 +1102,7 @@ defineExpose({
 }
 
 .featured-service-card:hover .featured-highlight {
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   color: white;
   border-color: transparent;
   transform: translateY(-2px);
@@ -1133,7 +1133,7 @@ defineExpose({
 .mobile-service-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
-  border-color: #c52027;
+  border-color: #d65d65;
 }
 
 .mobile-service-btn:active {
@@ -1162,7 +1162,7 @@ defineExpose({
 
 .mobile-fontawesome-icon {
   font-size: 2.5rem;
-  color: #c52027;
+  color: #d65d65;
 }
 
 .mobile-service-title {
@@ -1174,7 +1174,7 @@ defineExpose({
 
 .mobile-service-keyword {
   font-size: 0.85rem;
-  color: #c52027;
+  color: #d65d65;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -1202,7 +1202,7 @@ defineExpose({
 
 .service-badge {
   display: inline-block;
-  background: #c52027;
+  background: #d65d65;
   color: white;
   padding: 8px 20px;
   border-radius: 20px;
@@ -1244,7 +1244,7 @@ defineExpose({
 
 .highlight-item::before {
   content: '→';
-  color: #c52027;
+  color: #d65d65;
   font-weight: bold;
   margin-right: 15px;
   font-size: 1.2rem;
@@ -1281,7 +1281,7 @@ defineExpose({
 }
 
 .btn-primary {
-  background: #c52027;
+  background: #d65d65;
   color: white;
 }
 
@@ -1292,18 +1292,18 @@ defineExpose({
 
 .btn-secondary {
   background: transparent;
-  color: #c52027;
-  border: 2px solid #c52027;
+  color: #d65d65;
+  border: 2px solid #d65d65;
 }
 
 .btn-secondary:hover {
-  background: #c52027;
+  background: #d65d65;
   color: white;
 }
 
 /* Visual Elements */
 .service-visual {
-  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
   border-radius: 20px;
   padding: 50px 40px;
   color: white;
@@ -1434,7 +1434,7 @@ defineExpose({
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
-  color: #c52027;
+  color: #d65d65;
   margin-bottom: 10px;
 }
 
@@ -1476,9 +1476,9 @@ defineExpose({
 
 /* Solutions Section 연동을 위한 글로벌 스타일 */
 :global(.solution-nav-btn.highlighted) {
-  background: #15293f !important;
+  background: #2d3f5f !important;
   color: white !important;
-  border-color: #15293f !important;
+  border-color: #2d3f5f !important;
   transform: translateY(-3px) !important;
   box-shadow: 0 8px 20px rgba(118, 75, 162, 0.4) !important;
 }
