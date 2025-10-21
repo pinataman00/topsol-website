@@ -63,7 +63,7 @@ body {
 .card-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -113,7 +113,7 @@ body {
   justify-content: center;
   margin-right: 20px;
   font-size: 1.8rem;
-  color: #d65d65;
+  color: #c52027;
 }
 
 /* 솔루션 상세 스타일 */
@@ -132,7 +132,7 @@ body {
   align-items: center;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
 }
 
@@ -292,13 +292,13 @@ body {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-  border-color: #d65d65;
+  border-color: #c52027;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;

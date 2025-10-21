@@ -245,7 +245,7 @@ export default {
   color: white;
   border: none;
   overflow: hidden;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
 
@@ -357,7 +357,7 @@ export default {
 }
 
 .top-btn {
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   width: 60px;
   height: 60px;
   box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
@@ -509,9 +509,9 @@ export default {
 
 .option-btn {
   padding: 12px;
-  border: 2px solid #d65d65;
+  border: 2px solid #c52027;
   background: white;
-  color: #d65d65;
+  color: #c52027;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -520,7 +520,7 @@ export default {
 }
 
 .option-btn:hover {
-  background: #d65d65;
+  background: #c52027;
   color: white;
   transform: translateY(-2px);
 }

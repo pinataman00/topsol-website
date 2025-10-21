@@ -333,7 +333,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
 }
 
@@ -738,7 +738,7 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #d65d65;
+  border-color: #c52027;
 }
 
 .feature-icon {
@@ -894,7 +894,7 @@ export default {
 
 .arrow-divider {
   font-size: 3rem;
-  color: #d65d65;
+  color: #c52027;
   font-weight: bold;
   text-align: center;
   flex-shrink: 0;
@@ -932,7 +932,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #d65d65;
+  color: #c52027;
 }
 
 .arch-components {
@@ -951,7 +951,7 @@ export default {
 }
 
 .arch-component:hover {
-  background: #d65d65;
+  background: #c52027;
   color: white;
 }
 
@@ -979,7 +979,7 @@ export default {
 
   .use-case-section.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #d65d65;
+    color: #c52027;
   }
 
   .use-case-section.is-mobile h4:active,

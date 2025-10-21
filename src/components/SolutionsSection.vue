@@ -286,9 +286,9 @@ export default {
 
 .solution-nav-btn {
   padding: 12px 30px;
-  border: 2px solid #d65d65;
+  border: 2px solid #c52027;
   background: white;
-  color: #d65d65;
+  color: #c52027;
   border-radius: 25px;
   font-weight: 600;
   cursor: pointer;
@@ -300,7 +300,7 @@ export default {
 
 .solution-nav-btn:hover,
 .solution-nav-btn.active {
-  background: #d65d65;
+  background: #c52027;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
@@ -338,21 +338,21 @@ export default {
 
 .tooltip-solution-title h4 {
   margin: 0;
-  color: #d65d65;
+  color: #c52027;
   font-size: 1.1rem;
   font-weight: 700;
 }
 
 .tooltip-solution-title p {
   margin: 0;
-  color: #d65d65;
+  color: #c52027;
   font-size: 0.9rem;
   font-weight: 700;
 }
 
 .tooltip-content h4 {
   margin: 0 0 8px 0;
-  color: #d65d65;
+  color: #c52027;
   font-size: 1.1rem;
   font-weight: 700;
 }
