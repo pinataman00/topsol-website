@@ -153,6 +153,14 @@ export default {
     }
   },
   emits: ['change-solution'],
+  watch: {
+    activeSolution(newValue) {
+      // 모바일에서 activeSolution이 변경되면 해당 버튼을 스크롤해서 보이게 함
+      if (window.innerWidth <= 768) {
+        this.scrollActiveButtonIntoView(newValue)
+      }
+    }
+  },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
     this.handleScroll() // 초기 상태 체크
@@ -214,11 +222,11 @@ export default {
           if (solutionNav) {
             const navRect = solutionNav.getBoundingClientRect()
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop
-            const headerHeight = 80 // 헤더 높이
-            const additionalOffset = 20 // nav 위쪽 여백
+            const headerHeight = 70 // 헤더 높이
+            const responsiveOffset = window.innerWidth <= 768 ? 30 : 40 // 모바일 30px, 데스크톱 40px
 
-            // solution-nav 상단이 헤더 아래 20px 위치에 오도록 계산
-            const targetPosition = scrollTop + navRect.top - headerHeight - additionalOffset
+            // solution-nav 상단이 헤더 아래에 오도록 계산
+            const targetPosition = scrollTop + navRect.top - headerHeight - responsiveOffset
 
             window.scrollTo({
               top: targetPosition,
@@ -260,6 +268,7 @@ export default {
 
 .solutions-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding-top: 120px;
 }
 
 .solution-nav {
@@ -277,9 +286,9 @@ export default {
 
 .solution-nav-btn {
   padding: 12px 30px;
-  border: 2px solid #667eea;
+  border: 2px solid #c52027;
   background: white;
-  color: #667eea;
+  color: #c52027;
   border-radius: 25px;
   font-weight: 600;
   cursor: pointer;
@@ -291,7 +300,7 @@ export default {
 
 .solution-nav-btn:hover,
 .solution-nav-btn.active {
-  background: #667eea;
+  background: #c52027;
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
@@ -329,21 +338,21 @@ export default {
 
 .tooltip-solution-title h4 {
   margin: 0;
-  color: #667eea;
+  color: #c52027;
   font-size: 1.1rem;
   font-weight: 700;
 }
 
 .tooltip-solution-title p {
   margin: 0;
-  color: #667eea;
+  color: #c52027;
   font-size: 0.9rem;
   font-weight: 700;
 }
 
 .tooltip-content h4 {
   margin: 0 0 8px 0;
-  color: #667eea;
+  color: #c52027;
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -512,6 +521,10 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .solutions-section {
+    padding-top: 100px;
+  }
+
   .section-subtitle {
     font-size: 0.95rem;
   }

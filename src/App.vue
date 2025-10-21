@@ -50,7 +50,7 @@ export default {
       isScrolled: false,
       activeSolution: 'cloudwai',
       heroBackgroundType: 'cyber',
-      isDevelopmentMode: true // 배포시 false로 변경      
+      isDevelopmentMode: true // 배포시 false로 변경
     }
   },
   mounted() {
@@ -66,13 +66,17 @@ export default {
       console.log('Header 드롭다운에서 솔루션 선택:', solutionId)
       this.activeSolution = solutionId
 
-      // Solutions 섹션으로 부드럽게 스크롤 (HeaderComponent에서도 하지만 확실히 하기 위해)
+      // solution-nav로 부드럽게 스크롤
       setTimeout(() => {
-        const solutionsSection = document.querySelector('#solutions')
-        if (solutionsSection) {
-          const offsetTop = solutionsSection.offsetTop - 70
+        const solutionNav = document.querySelector('.solution-nav')
+        if (solutionNav) {
+          const headerHeight = 70
+          const responsiveOffset = window.innerWidth <= 768 ? 30 : 40
+          const rect = solutionNav.getBoundingClientRect()
+          const targetPosition = window.scrollY + rect.top - headerHeight - responsiveOffset
+
           window.scrollTo({
-            top: offsetTop,
+            top: targetPosition,
             behavior: 'smooth'
           })
         }
@@ -92,15 +96,21 @@ export default {
       // 해당 솔루션 탭 활성화
       this.activeSolution = solutionType
 
-      // Solutions 섹션으로 스크롤
-      const solutionsSection = document.querySelector('#solutions')
-      if (solutionsSection) {
-        const offsetTop = solutionsSection.offsetTop - 70
-        window.scrollTo({
-          top: offsetTop,
-          behavior: 'smooth'
-        })
-      }
+      // solution-nav로 스크롤
+      setTimeout(() => {
+        const solutionNav = document.querySelector('.solution-nav')
+        if (solutionNav) {
+          const headerHeight = 70
+          const responsiveOffset = window.innerWidth <= 768 ? 30 : 40
+          const rect = solutionNav.getBoundingClientRect()
+          const targetPosition = window.scrollY + rect.top - headerHeight - responsiveOffset
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          })
+        }
+      }, 100)
     },
     changeSolution(solutionType) {
       this.activeSolution = solutionType

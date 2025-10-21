@@ -492,7 +492,7 @@ export default {
   align-items: start;
   gap: 60px;
   padding: 60px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
 }
 
@@ -981,13 +981,13 @@ export default {
 .feature-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-  border-color: #667eea;
+  border-color: #c52027;
 }
 
 .feature-icon {
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -1042,7 +1042,7 @@ export default {
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #667eea;
+  color: #c52027;
 }
 
 .arch-components {
@@ -1088,7 +1088,7 @@ export default {
 }
 
 .chat-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
   padding: 20px;
 }
@@ -1158,7 +1158,7 @@ export default {
 }
 
 .ai-avatar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   padding: 6px;
 }
 
@@ -1182,7 +1182,7 @@ export default {
 }
 
 .user-message .message-bubble {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
   border-bottom-right-radius: 6px;
 }
@@ -1235,7 +1235,7 @@ export default {
 
 .chat-input button {
   padding: 12px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   color: white;
   border: none;
   border-radius: 25px;
@@ -1318,7 +1318,7 @@ export default {
 
   .chat-demo-section.is-mobile h4:hover,
   .solution-architecture.is-mobile h4:hover {
-    color: #667eea;
+    color: #c52027;
   }
 
   .chat-demo-section.is-mobile h4:active,

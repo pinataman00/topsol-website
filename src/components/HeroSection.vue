@@ -33,7 +33,7 @@
       <div class="services-preview">
         <div class="service-tag" @click="goToSolution('cloudwai')">Cloud Service</div>
         <div class="service-tag" @click="goToSolution('neoflow')">Data Platform</div>
-        <div class="service-tag" @click="goToSolution('dapq')">AI Chatbot</div>
+        <div class="service-tag" @click="goToSolution('verora')">AI Chatbot</div>
         <div class="service-tag" @click="goToSolution('dataq')">AI Data Analytics</div>
         <div class="service-tag" @click="goToSolution('dovora')">AI Document</div>
         <div class="service-tag" @click="goToSolution('kubesync')">DevOps Service</div>
@@ -50,7 +50,8 @@ export default {
   props: {
     backgroundType: {
       type: String,
-      default: 'cyber',
+      // default: 'cyber', //TODO 251021) 여기로 원복...
+      default: 'minimal',
       validator: (value) => ['milkyway', 'minimal', 'cyber', 'fluid', 'neural', 'holographic'].includes(value)
     },
     showSelector: {
@@ -60,7 +61,7 @@ export default {
   },
   computed: {
     currentBackgroundComponent() {
-      return backgroundComponents[this.backgroundType] || backgroundComponents.fluid
+      return backgroundComponents[this.backgroundType] || backgroundComponents.milkyway
     }
   },
   methods: {
@@ -79,7 +80,8 @@ export default {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  padding-top: 70px;
 }
 
 .hero-background {
@@ -243,6 +245,10 @@ export default {
 
 /* 작은 모바일 */
 @media (max-width: 480px) {
+  .hero {
+    padding-top: 80px;
+  }
+
   .hero h1 {
     font-size: 1.8rem;
   }
@@ -254,6 +260,9 @@ export default {
 
 /* 모바일 대응 */
 @media (max-width: 768px) {
+  .hero {
+    padding-top: 90px;
+  }
 
   .hero-content {
     padding: 0 30px; /* 좌우 여백 증가 */

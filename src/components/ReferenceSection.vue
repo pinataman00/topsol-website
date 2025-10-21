@@ -207,7 +207,7 @@ export default {
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
-  color: #667eea;
+  color: #c52027;
   margin-bottom: 10px;
 }
 
