@@ -246,12 +246,12 @@ export default {
   border: none;
   overflow: hidden;
   background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(197, 32, 39, 0.4);
 }
 
 .main-floating-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.6);
+  box-shadow: 0 12px 35px rgba(197, 32, 39, 0.6);
 }
 
 .main-floating-btn .btn-icon {
@@ -266,7 +266,7 @@ export default {
   transform: translate(-50%, -50%);
   width: 70px;
   height: 70px;
-  border: 3px solid rgba(102, 126, 234, 0.6);
+  border: 3px solid rgba(197, 32, 39, 0.6);
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
@@ -360,7 +360,7 @@ export default {
   background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   width: 60px;
   height: 60px;
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 6px 20px rgba(197, 32, 39, 0.3);
 }
 
 .sub-floating-btn:hover {
@@ -370,7 +370,7 @@ export default {
 
 .top-btn:hover {
   transform: translateY(-2px) scale(1.1);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 8px 25px rgba(197, 32, 39, 0.5);
 }
 
 .sub-floating-btn .btn-icon {
