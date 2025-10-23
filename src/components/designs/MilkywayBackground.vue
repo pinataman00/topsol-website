@@ -7,31 +7,31 @@
                     <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
                     <stop offset="25%" style="stop-color:#16213e;stop-opacity:1" />
                     <stop offset="50%" style="stop-color:#0f3460;stop-opacity:1" />
-                    <stop offset="75%" style="stop-color:#533483;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+                    <stop offset="75%" style="stop-color:#15293f;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#c52027;stop-opacity:1" />
                 </linearGradient>
 
                 <!-- 은하수 스트림 그라디언트 -->
                 <linearGradient id="milkyWayStream" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.05" />
-                    <stop offset="20%" style="stop-color:#667eea;stop-opacity:0.15" />
+                    <stop offset="20%" style="stop-color:#c52027;stop-opacity:0.15" />
                     <stop offset="40%" style="stop-color:#ffffff;stop-opacity:0.25" />
-                    <stop offset="60%" style="stop-color:#764ba2;stop-opacity:0.2" />
+                    <stop offset="60%" style="stop-color:#15293f;stop-opacity:0.2" />
                     <stop offset="80%" style="stop-color:#ffffff;stop-opacity:0.1" />
-                    <stop offset="100%" style="stop-color:#667eea;stop-opacity:0.05" />
+                    <stop offset="100%" style="stop-color:#c52027;stop-opacity:0.05" />
                 </linearGradient>
 
                 <!-- 데이터 노드 그라디언트 -->
                 <radialGradient id="dataNodeGradient" cx="50%" cy="50%" r="50%">
                     <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
-                    <stop offset="50%" style="stop-color:#667eea;stop-opacity:0.6" />
-                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.2" />
+                    <stop offset="50%" style="stop-color:#c52027;stop-opacity:0.6" />
+                    <stop offset="100%" style="stop-color:#15293f;stop-opacity:0.2" />
                 </radialGradient>
 
                 <!-- 신경망 연결선 그라디언트 -->
                 <linearGradient id="neuralGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                     <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
-                    <stop offset="50%" style="stop-color:#667eea;stop-opacity:0.8" />
+                    <stop offset="50%" style="stop-color:#c52027;stop-opacity:0.8" />
                     <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.1" />
                 </linearGradient>
 

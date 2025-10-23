@@ -24,14 +24,14 @@
             <div class="info-icon"><i class="fas fa-calendar-alt"></i></div>
             <div>
               <strong>설립일자</strong><br>
-              2024.11.01
+              2025년 7월 1일
             </div>
           </div>
           <div class="info-item">
             <div class="info-icon"><i class="fas fa-users"></i></div>
             <div>
               <strong>직원 수</strong><br>
-              32명
+              10명
             </div>
           </div>
         </div>

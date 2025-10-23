@@ -4,9 +4,9 @@
             <defs>
                 <!-- 메인 그라디언트 -->
                 <linearGradient id="modernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                    <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+                    <stop offset="0%" style="stop-color:#c52027;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#15293f;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#c52027;stop-opacity:1" />
                 </linearGradient>
 
                 <!-- 데이터 플로우 그라디언트 -->
@@ -76,7 +76,7 @@
                         <animateMotion dur="20s" repeatCount="indefinite"
                             path="M200,0 A200,200 0 1,1 -200,0 A200,200 0 1,1 200,0" />
                     </circle>
-                    <circle r="2.5" fill="#667eea" opacity="0.8">
+                    <circle r="2.5" fill="#c52027" opacity="0.8">
                         <animateMotion dur="20s" begin="5s" repeatCount="indefinite"
                             path="M200,0 A200,200 0 1,1 -200,0 A200,200 0 1,1 200,0" />
                     </circle>
@@ -96,7 +96,7 @@
                 <rect x="0" y="0" width="3" height="50" fill="white">
                     <animate attributeName="height" values="50;120;50" dur="4s" repeatCount="indefinite" />
                 </rect>
-                <rect x="10" y="20" width="2" height="80" fill="#667eea">
+                <rect x="10" y="20" width="2" height="80" fill="#c52027">
                     <animate attributeName="height" values="80;150;80" dur="3.5s" repeatCount="indefinite" />
                 </rect>
                 <rect x="18" y="10" width="2.5" height="60" fill="white">
@@ -112,9 +112,9 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-svg">
             <defs>
                 <linearGradient id="original-bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                    <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+                    <stop offset="0%" style="stop-color:#c52027;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#15293f;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#c52027;stop-opacity:1" />
                 </linearGradient>
 
                 <linearGradient id="original-cloudMainGradient" x1="0%" y1="0%" x2="100%" y2="100%">

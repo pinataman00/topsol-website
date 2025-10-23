@@ -80,7 +80,7 @@ export default {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #d65d65 0%, #2d3f5f 100%);
+  background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
   padding-top: 70px;
 }
 

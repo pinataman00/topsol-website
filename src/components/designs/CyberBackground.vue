@@ -6,8 +6,8 @@
                 <linearGradient id="cyber-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
                     <stop offset="30%" style="stop-color:#1a1a2e;stop-opacity:1" />
-                    <stop offset="70%" style="stop-color:#d65d65;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#2d3f5f;stop-opacity:1" />
+                    <stop offset="70%" style="stop-color:#c52027;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#15293f;stop-opacity:1" />
                 </linearGradient>
 
                 <!-- 네온 글로우 (고유 ID) -->
@@ -23,7 +23,7 @@
 
                 <!-- 그리드 패턴 (고유 ID) -->
                 <pattern id="cyber-grid-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-                    <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(214,93,101,0.2)" stroke-width="1" />
+                    <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(197,32,39,0.2)" stroke-width="1" />
                 </pattern>
             </defs>
 
@@ -38,7 +38,7 @@
             <!-- 중앙 허브 네트워크 -->
             <g transform="translate(960, 540)">
                 <!-- 메인 코어 -->
-                <circle r="60" fill="none" stroke="#d65d65" stroke-width="3" filter="url(#cyber-neon-glow)">
+                <circle r="60" fill="none" stroke="#c52027" stroke-width="3" filter="url(#cyber-neon-glow)">
                     <animate attributeName="r" values="55;70;55" dur="4s" repeatCount="indefinite" />
                 </circle>
                 <circle r="20" fill="#ffffff" opacity="0.9">
@@ -47,8 +47,8 @@
 
                 <!-- 연결 노드들 -->
                 <g>
-                    <circle cx="150" cy="0" r="12" fill="#d65d65" filter="url(#cyber-neon-glow)" />
-                    <line x1="60" y1="0" x2="138" y2="0" stroke="#d65d65" stroke-width="2" opacity="0.6">
+                    <circle cx="150" cy="0" r="12" fill="#c52027" filter="url(#cyber-neon-glow)" />
+                    <line x1="60" y1="0" x2="138" y2="0" stroke="#c52027" stroke-width="2" opacity="0.6">
                         <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" />
                     </line>
                     <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s"
@@ -56,8 +56,8 @@
                 </g>
 
                 <g>
-                    <circle cx="120" cy="0" r="8" fill="#2d3f5f" filter="url(#cyber-neon-glow)" />
-                    <line x1="60" y1="0" x2="112" y2="0" stroke="#2d3f5f" stroke-width="2" opacity="0.5">
+                    <circle cx="120" cy="0" r="8" fill="#15293f" filter="url(#cyber-neon-glow)" />
+                    <line x1="60" y1="0" x2="112" y2="0" stroke="#15293f" stroke-width="2" opacity="0.5">
                         <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.5s" repeatCount="indefinite" />
                     </line>
                     <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="15s"
@@ -76,12 +76,12 @@
 
             <!-- 데이터 플로우 라인들 -->
             <g opacity="0.4">
-                <path d="M100,200 Q500,300 900,250 T1700,200" stroke="#d65d65" stroke-width="2" fill="none"
+                <path d="M100,200 Q500,300 900,250 T1700,200" stroke="#c52027" stroke-width="2" fill="none"
                     filter="url(#cyber-neon-glow)">
                     <animate attributeName="opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite" />
                 </path>
 
-                <path d="M200,800 Q600,700 1000,750 T1800,800" stroke="#2d3f5f" stroke-width="2" fill="none"
+                <path d="M200,800 Q600,700 1000,750 T1800,800" stroke="#15293f" stroke-width="2" fill="none"
                     filter="url(#cyber-neon-glow)">
                     <animate attributeName="opacity" values="0.3;0.7;0.3" dur="8s" repeatCount="indefinite" />
                 </path>
@@ -89,7 +89,7 @@
 
             <!-- 플로팅 데이터 포인트들 -->
             <g>
-                <circle cx="300" cy="300" r="4" fill="#d65d65" filter="url(#cyber-neon-glow)">
+                <circle cx="300" cy="300" r="4" fill="#c52027" filter="url(#cyber-neon-glow)">
                     <animateTransform attributeName="transform" type="translate" values="0,0;50,-30;0,0" dur="5s"
                         repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite" />
@@ -101,7 +101,7 @@
                     <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite" />
                 </circle>
 
-                <circle cx="800" cy="150" r="2" fill="#2d3f5f" filter="url(#cyber-neon-glow)">
+                <circle cx="800" cy="150" r="2" fill="#15293f" filter="url(#cyber-neon-glow)">
                     <animateTransform attributeName="transform" type="translate" values="0,0;30,40;0,0" dur="6s"
                         repeatCount="indefinite" />
                     <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite" />
@@ -110,12 +110,12 @@
 
             <!-- 코너 네온 라인들 -->
             <g opacity="0.3">
-                <path d="M0,0 L100,0 L100,100" stroke="#d65d65" stroke-width="3" fill="none"
+                <path d="M0,0 L100,0 L100,100" stroke="#c52027" stroke-width="3" fill="none"
                     filter="url(#cyber-neon-glow)">
                     <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite" />
                 </path>
 
-                <path d="M1920,0 L1820,0 L1820,100" stroke="#2d3f5f" stroke-width="3" fill="none"
+                <path d="M1920,0 L1820,0 L1820,100" stroke="#15293f" stroke-width="3" fill="none"
                     filter="url(#cyber-neon-glow)">
                     <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite" />
                 </path>
@@ -125,7 +125,7 @@
                     <animate attributeName="opacity" values="0.2;0.4;0.2" dur="5s" repeatCount="indefinite" />
                 </path>
 
-                <path d="M1920,1080 L1820,1080 L1820,980" stroke="#d65d65" stroke-width="3" fill="none"
+                <path d="M1920,1080 L1820,1080 L1820,980" stroke="#c52027" stroke-width="3" fill="none"
                     filter="url(#cyber-neon-glow)">
                     <animate attributeName="opacity" values="0.3;0.5;0.3" dur="3.5s" repeatCount="indefinite" />
                 </path>

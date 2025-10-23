@@ -10,19 +10,13 @@
         <div class="contact-item">
           <font-awesome-icon :icon="['fas', 'location-dot']" class="contact-icon" />
           <h3>주소</h3>
-          <p>서울특별시 강남구 삼성동 10-3, 3층</p>
-        </div>
-
-        <div class="contact-item">
-          <font-awesome-icon :icon="['fas', 'phone']" class="contact-icon" />
-          <h3>전화</h3>
-          <p>02-6672-7456</p>
+          <p>서울특별시 송파구 오금로11길 55, 214-100호(방이동)</p>
         </div>
 
         <div class="contact-item">
           <font-awesome-icon :icon="['fas', 'globe']" class="contact-icon" />
           <h3>웹사이트</h3>
-          <p>www.topsol.co.kr</p>
+          <p>topsol.kr</p>
         </div>
       </div>
       <div class="copyright-info">

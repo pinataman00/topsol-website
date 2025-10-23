@@ -7,16 +7,16 @@
                     <stop offset="0%" style="stop-color:#0c0c0c;stop-opacity:1" />
                     <stop offset="20%" style="stop-color:#1a1a2e;stop-opacity:1" />
                     <stop offset="40%" style="stop-color:#16213e;stop-opacity:1" />
-                    <stop offset="60%" style="stop-color:#667eea;stop-opacity:1" />
-                    <stop offset="80%" style="stop-color:#764ba2;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#833ab4;stop-opacity:1" />
+                    <stop offset="60%" style="stop-color:#c52027;stop-opacity:1" />
+                    <stop offset="80%" style="stop-color:#15293f;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#c52027;stop-opacity:1" />
                 </linearGradient>
 
                 <!-- 홀로그램 스피어 그라디언트 -->
                 <radialGradient id="sphereGradient" cx="30%" cy="30%" r="70%">
                     <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
-                    <stop offset="30%" style="stop-color:#667eea;stop-opacity:0.7" />
-                    <stop offset="60%" style="stop-color:#764ba2;stop-opacity:0.5" />
+                    <stop offset="30%" style="stop-color:#c52027;stop-opacity:0.7" />
+                    <stop offset="60%" style="stop-color:#15293f;stop-opacity:0.5" />
                     <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0.2" />
                 </radialGradient>
 
