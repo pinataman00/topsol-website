@@ -808,7 +808,7 @@ defineExpose({
 
 <style scoped>
 .services-section {
-  padding: 80px 0;
+  padding: 60px 0;
   background: #fff;
 }
 
@@ -821,39 +821,39 @@ defineExpose({
 /* Header */
 .section-header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .section-title {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: #333;
   letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
 .section-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #666;
-  line-height: 1.6;
+  line-height: 1.5;
   max-width: 800px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
 }
 
 /* Navigation Tabs */
 .service-nav {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   border-bottom: 1px solid #e9ecef;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .nav-item {
-  padding: 20px 30px;
-  font-size: 1.1rem;
+  padding: 16px 24px;
+  font-size: 1.05rem;
   font-weight: 600;
   color: #666;
   cursor: pointer;
@@ -909,8 +909,8 @@ defineExpose({
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
-  margin-bottom: 80px;
+  gap: 16px;
+  margin-bottom: 60px;
   margin-top: 15px;
   width: 100%;
   max-width: 1400px;
@@ -921,7 +921,7 @@ defineExpose({
 .featured-service-card {
   background: white;
   border-radius: 14px;
-  padding: 18px;
+  padding: 14px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
@@ -929,11 +929,11 @@ defineExpose({
   position: relative;
   overflow: hidden;
   height: auto;
-  min-height: 150px;
+  min-height: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   width: 100%;
 }
 
@@ -941,7 +941,7 @@ defineExpose({
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 50px rgba(118, 75, 162, 0.25);
   border-color: #15293f;
-  background: linear-gradient(135deg, #fff 0%, #f8f9ff 100%);
+  background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
 }
 
 .featured-service-card::before {
@@ -972,8 +972,8 @@ defineExpose({
 }
 
 .featured-icon {
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
   background: transparent;
   border-radius: 8px;
   display: flex;
@@ -988,7 +988,7 @@ defineExpose({
 
 .featured-icon.emoji-icon {
   background: linear-gradient(135deg, #c52027 0%, #15293f 100%);
-  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 3px 10px rgba(197, 32, 39, 0.2);
 }
 
 .featured-icon-img {
@@ -1007,7 +1007,7 @@ defineExpose({
 }
 
 .featured-service-card:hover .featured-icon.emoji-icon {
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.35);
+  box-shadow: 0 6px 20px rgba(197, 32, 39, 0.35);
 }
 
 .featured-content {
@@ -1018,7 +1018,7 @@ defineExpose({
 }
 
 .featured-service-title {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #2d3748;
   margin-bottom: 0;
@@ -1037,18 +1037,18 @@ defineExpose({
   flex: 1;
   display: flex;
   align-items: flex-start;
-  min-height: 50px;
+  min-height: 45px;
   margin-top: 0;
 }
 
 .featured-service-desc {
   color: #4a5568;
-  line-height: 1.6;
+  line-height: 1.5;
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   position: absolute;
   top: 0;
@@ -1089,16 +1089,16 @@ defineExpose({
 }
 
 .featured-highlight {
-  background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
-  color: #5a67d8;
-  padding: 8px 16px;
+  background: linear-gradient(135deg, #fff5f5 0%, #ffe4e6 100%);
+  color: #c52027;
+  padding: 6px 14px;
   border-radius: 14px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  border: 1px solid #e2e8ff;
+  border: 1px solid #fecdd3;
   white-space: nowrap;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 4px rgba(90, 103, 216, 0.08);
+  box-shadow: 0 2px 4px rgba(197, 32, 39, 0.08);
 }
 
 .featured-service-card:hover .featured-highlight {
@@ -1106,7 +1106,7 @@ defineExpose({
   color: white;
   border-color: transparent;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(197, 32, 39, 0.3);
 }
 
 /* Mobile Services */
@@ -1132,7 +1132,7 @@ defineExpose({
 
 .mobile-service-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 8px 20px rgba(197, 32, 39, 0.15);
   border-color: #c52027;
 }
 
@@ -1197,7 +1197,7 @@ defineExpose({
 }
 
 .service-info {
-  padding: 40px 0;
+  padding: 40px 0 60px 0;
 }
 
 .service-badge {
@@ -1253,6 +1253,7 @@ defineExpose({
 .service-actions {
   display: flex;
   gap: 20px;
+  margin-top: 10px;
 }
 
 .action-btn {
@@ -1273,7 +1274,7 @@ defineExpose({
   width: 24px;
   height: 24px;
   object-fit: contain;
-  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(571%) hue-rotate(208deg) brightness(95%) contrast(95%);
+  filter: brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(7471%) hue-rotate(356deg) brightness(95%) contrast(119%);
 }
 
 .btn-secondary:hover .btn-icon {
@@ -1286,7 +1287,7 @@ defineExpose({
 }
 
 .btn-primary:hover {
-  background: #5a6fd8;
+  background: #a01d23;
   transform: translateY(-2px);
 }
 
@@ -1404,9 +1405,9 @@ defineExpose({
 /* Stats Section */
 .stats-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 60px 40px;
+  padding: 50px 40px;
   border-radius: 20px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .stats-title {

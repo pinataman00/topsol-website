@@ -346,12 +346,12 @@ body {
   font-size: 2rem;
   margin: 0 auto 15px auto;
   display: block;
-  color: #93a4f4;
+  color: #c52027;
 }
 
 .copyright-info p {
   margin-top: 30px;
-  color: rgba(147, 164, 244, 0.73);
+  color: rgba(197, 32, 39, 0.73);
 }
 
 /* 애니메이션 */
